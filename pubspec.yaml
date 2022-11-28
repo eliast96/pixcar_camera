@@ -12,14 +12,14 @@ flutter:
   plugin:
     platforms:
       android:
-        default_package: camera_pixcar
+        default_package: camera_android
       ios:
         default_package: camera_avfoundation
       web:
         default_package: camera_web
 
 dependencies:
-  camera_pixcar:
+  camera_android:
     git:
       url: https://github.com/eliast96/flutter-plugins.git
   camera_avfoundation: ^0.9.7+1
